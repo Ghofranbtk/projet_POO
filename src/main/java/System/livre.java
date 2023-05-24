@@ -237,7 +237,7 @@ public class livre extends javax.swing.JFrame {
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         Emprunts ou = new Emprunts();
-        ou.setVisible(true) ;
+         this.setVisible(false);
         ou.setVisible(true) ;
 
     }//GEN-LAST:event_jButton6ActionPerformed
@@ -265,7 +265,7 @@ public class livre extends javax.swing.JFrame {
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         Abonne ou = new Abonne();
-        ou.setVisible(true) ;
+         this.setVisible(false);
         ou.setVisible(true) ;
     }//GEN-LAST:event_jButton8ActionPerformed
 private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
@@ -395,7 +395,7 @@ private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         Requets ou = new Requets();
-        ou.setVisible(true) ;
+         this.setVisible(false);
         ou.setVisible(true) ;
 
     }//GEN-LAST:event_jButton5ActionPerformed

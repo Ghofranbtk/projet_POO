@@ -257,7 +257,9 @@ public class Emprunts extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
+       Requets ou = new Requets();
+          this.setVisible(false);
+        ou.setVisible(true) ;
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void empruntIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_empruntIDActionPerformed
@@ -293,6 +295,7 @@ public class Emprunts extends javax.swing.JFrame {
     
     con.close();
     JOptionPane.showMessageDialog(null, "done");
+    
 }catch (Exception e) {
     e.printStackTrace();
 }
